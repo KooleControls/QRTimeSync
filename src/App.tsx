@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react"
 
+import { PageLinkQr } from "@/components/page-link-qr"
 import { QrDisplay } from "@/components/qr-display"
 import {
   Card,
@@ -91,6 +92,7 @@ export function App() {
           </Tabs>
         </CardContent>
       </Card>
+      <PageLinkQr />
     </div>
   )
 }
