@@ -1,6 +1,12 @@
-# React + TypeScript + Vite + shadcn/ui
+# QRTimeSync
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+A web app that displays a QR code used to configure the time in our controllers.
+
+**Live site:** https://koolecontrols.github.io/QRTimeSync/
+
+Pushes to `main` are automatically built and deployed to GitHub Pages via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+
+Built with Vite + React + TypeScript + shadcn/ui.
 
 ## Adding components
 

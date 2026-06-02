@@ -5,6 +5,8 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Served from https://koolecontrols.github.io/QRTimeSync/
+  base: "/QRTimeSync/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
